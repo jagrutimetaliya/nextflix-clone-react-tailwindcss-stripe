@@ -14,8 +14,11 @@ firebase.com
 
 
 npm install axios --save
+
 npm install --save firebase
+
 npm install --save react-router-dom
+
 
 
 deployment : 
