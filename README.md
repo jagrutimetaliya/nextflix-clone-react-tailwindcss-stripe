@@ -21,12 +21,19 @@ npm install --save react-router-dom
 deployment : 
 1. firebase login => 
 If not logged in then 
+
 => https://firebase.google.com/docs/cli
+
 => npm install -g firebase-tools
+
 firebase init
+
 configure 
+
 npm run build 
+
 firebase deploy
+
 
 
 fb => go to console=> left sidebar => cloud Firebase => create database 
