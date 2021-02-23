@@ -1,6 +1,9 @@
 npx create-react-app netflix-build--youtube --template redux
+
 => Firebase setup 
+
 firebase.com 
+
 1. login 
 2. right side click go to console 
 3. add project 
