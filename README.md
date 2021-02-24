@@ -1,7 +1,12 @@
+<<<<<<< HEAD
 
 `npx create-react-app netflix-build--youtube --template redux`
+=======
+npx create-react-app netflix-build--youtube --template redux
+>>>>>>> 21a9621d3075ace57269defe54929fac192a2007
 
 => Firebase setup 
+
 firebase.com 
 
 1. login 
@@ -14,24 +19,32 @@ firebase.com
 
 ```
 npm install axios --save
+
 npm install --save firebase
+
 npm install --save react-router-dom
 
 ```
+
 
 deployment : 
 
 1. firebase login => 
 If not logged in then 
+
 => https://firebase.google.com/docs/cli
 
-```
-npm install -g firebase-tools
+=> npm install -g firebase-tools
+
 firebase init
+
 configure 
+
 npm run build 
+
 firebase deploy
 ```
+
 
 fb => go to console=> left sidebar => cloud Firebase => create database 
 => create test or production database => next => Click enable 
