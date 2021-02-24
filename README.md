@@ -1,9 +1,5 @@
-<<<<<<< HEAD
 
 `npx create-react-app netflix-build--youtube --template redux`
-=======
-npx create-react-app netflix-build--youtube --template redux
->>>>>>> 21a9621d3075ace57269defe54929fac192a2007
 
 => Firebase setup 
 

@@ -1,8 +1,6 @@
 import React,{useRef} from 'react';
 import { auth } from '../firebase';
 
-
-
 function SignupScreen() {
     const emailRef = useRef(null);
     const passwordRef = useRef(null);

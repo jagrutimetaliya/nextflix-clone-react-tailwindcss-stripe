@@ -1,7 +1,6 @@
 import React,{useState, useEffect} from 'react';
 import { useHistory } from "react-router-dom";
 
-
 function Nav() {
     const [show, handleShow] = useState(false);
    const history = useHistory();

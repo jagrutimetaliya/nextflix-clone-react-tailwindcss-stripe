@@ -5,7 +5,6 @@ import { auth } from '../firebase';
 import Nav from '../Nav';
 import PlanScreen from './PlanScreen';
 
-//import './ProfileScreen.css';
 
 function ProfileScreen() {
     const user = useSelector(selectUser);

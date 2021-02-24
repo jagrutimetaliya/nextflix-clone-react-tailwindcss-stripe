@@ -1,6 +1,5 @@
 import React, {useState, useEffect} from 'react';
 import requests from "./Requests";
-import "./css/index.css";
 import axios from "./axios";
 
 function Banner() {
@@ -22,19 +21,19 @@ function Banner() {
     return string?.length > n?string.substr(0,n-1) + '...' : string;
   }
     return (
-             <header className="relative h-auto text-black-600" style={{
+             <header className="" style={{
             backgroundSize: "cover",
             backgroundImage: `url("https://image.tmdb.org/t/p/original/${movie?.backdrop_path}")`,
             backgroundPosition: "center center"}}>
-            <div className="ml-8 pt-8  h-20">
-                <h1 className="text-sm pb-0.5">{movie?.title || movie?.name || movie?.original_name }</h1>
+            {/* <div className="">
+                <h1 className="">{movie?.title || movie?.name || movie?.original_name }</h1>
                 <div className="banner__buttons">
                     <button className="banner__button">Play</button>
                     <button className="banner__button">My List</button>
                 </div>
                 <div className="banner__description">{truncate(movie?.overview,150)}</div>
             </div>
-            <div className="banner--fadeButtom"/>
+            <div className="banner--fadeButtom"/> */}
         </header>
     )
 }
