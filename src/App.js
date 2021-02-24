@@ -8,7 +8,7 @@ import {
 } from "react-router-dom";
 import { useSelector, useDispatch } from 'react-redux';
 
-import './App.css';
+import './css/index.css';
 import HomeScreen from "./screens/HomeScreen";
 import LoginScreen from "./screens/LoginScreen";
 import ProfileScreen from "./screens/ProfileScreen";
@@ -41,7 +41,7 @@ function App() {
   return (
     <div className="App">
     
-        {/* <Counter /> */}
+      
         <Router>
         {!user ?  <LoginScreen/> :  <Switch>
           <Route path="/profile">

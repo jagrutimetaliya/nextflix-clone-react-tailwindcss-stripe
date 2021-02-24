@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@craco/craco": "^6.1.1",
     "@reduxjs/toolkit": "^1.5.0",
     "@stripe/stripe-js": "^1.13.0",
     "@testing-library/jest-dom": "^4.2.4",
@@ -17,9 +18,9 @@
     "react-scripts": "4.0.2"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start" : "craco start",
+    "build" : "craco build",
+    "test": "craco test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -36,5 +37,25 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss7-compat": "^2.0.3",
+    "autoprefixer": "^9.8.6",
+    "postcss": "^7.0.35",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.3",
+    "vite": "^2.0.2"
+  },
+  "description": "`npx create-react-app netflix-build--youtube --template redux`",
+  "main": "craco.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jagrutimetaliya/nextflix-clone-react-tailwindcss-stripe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jagrutimetaliya/nextflix-clone-react-tailwindcss-stripe/issues"
+  },
+  "homepage": "https://github.com/jagrutimetaliya/nextflix-clone-react-tailwindcss-stripe#readme"
 }
